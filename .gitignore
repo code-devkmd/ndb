@@ -1,0 +1,28 @@
+# Build output
+
+ndb
+main
+*.o
+*.out
+
+# CMake
+
+build/
+cmake-build-*/
+
+# Debug files
+
+*.dSYM/
+*.stackdump
+
+# IDE / editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+
+.DS_Store
+Thumbs.db
